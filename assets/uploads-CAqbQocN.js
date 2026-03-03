@@ -1,0 +1,1 @@
+import{c as p}from"./App-3ZKe3mQZ.js";const e={uploadAttachments:t=>{const a=new FormData;return t.forEach(o=>a.append("files",o)),p.post("/uploads",a,{headers:{"Content-Type":"multipart/form-data"}})}};export{e as u};
